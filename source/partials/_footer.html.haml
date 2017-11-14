@@ -1,3 +1,27 @@
-%footer
-  %h3 My Middleman
-  %p Built using the awesome Middleman framework
+.container.well
+#footer
+  .container
+    .row
+      %h3.footertext About Me
+      %br/
+      .col-md-4
+      .text-center
+        %center
+          %img.img-circle{:alt => "...", :src => "add icon here"}/
+          %br/
+          %h5.footertext My Profession
+          %p.footertext
+            Read more about me as a professional
+            %br/
+      .col-md-4
+        %center
+          %img.img-circle{:alt => "...", :src => "add icon here"}/
+          %br/
+          %h5.footertext Private
+          %p.footertext
+            When I am not working
+            %br/
+    .row
+      %p
+      %center
+        %a{:href => "#"} Contact
