@@ -1,0 +1,6 @@
+%html
+%body{:style => "background-image:url('https://source.unsplash.com/iz8MNOJWW1c/1800x750')"}
+.about
+  - data.about.each do |project|
+    %h5= project[:name]
+    %h6=project[:description]
