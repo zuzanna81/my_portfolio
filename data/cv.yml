@@ -1,0 +1,48 @@
+- system: IPS (Interior Production System)
+  description: A planning system for H & M stores. IPS is a management system for handling purchases, budget and investment costs as well as follow-up of these. The system keeps information about contacts, landlords and insurance. IPS is an important distributor of information to other systems within H & M.
+  status: past
+
+- system: NCG Product (Non Commercial Goods)
+  description: A standard system developed by Siemens PLM, constantly adapted to the needs of H & M departments such as Interior, Marketing and Visual. NCG Product is a product directory that supports user groups in managing product and drawing audits. The core of the system is the regulation of products based on the store's attributes. NCG Product handles products that are published and ordered in the NCG Order.
+  role:
+  status: past
+
+- system: Showroom Application
+  description: A Press & Communication system that supports showroom employees around the world in their daily work. The application keeps information about media, media contacts, freelance contacts, loans and media coverage. Mainly used for registering of H & M garments lent to various media, as well as monitoring media coverage that these loans have generated.
+  role:
+  status: past
+
+- system: OSIDE
+  description: Order Management System OSIDE replaced by NCG Product and NCG Order. Is a product and order database that manages store-related interior. OSIDE is a tool for receiving drawings, which provides a basis for pre-ordering and ordering of products to different suppliers.
+  role:
+  status: past
+
+- system: ICC (Integration Competence Center)
+  description: Quantifying of H & M stores. It is a complex product flow that includes a large integration between 5 different interior systems. These systems include AutoCad, OSIDE, IPS, NCG Product and NCG Order. The core of the process lies in the calculation of product quantities based on the size of the store, store class, country and concept, contracted and ordered from suppliers in the NCG Order. Tests of "Quantifying" were implemented in 2 major rounds. I was responsible for planning of tests, executing tests and reporting test results.
+  role:
+  status: past
+
+# - system_on: FURA
+#   description_on:
+#   role_on:
+#   status: ongoing
+#
+# - system_on: IA
+#   description_on:
+#   role_on:
+#   status: ongoing
+#
+# - system_on: Kundwebben
+#   description_on:
+#   role_on:
+#   status: ongoing
+#
+# - system_on: Forskning
+#   description_on:
+#   role_on:
+#   status: ongoing
+#
+# - system_on: Klara
+#   description_on:
+#   role_on:
+#   status: ongoing
