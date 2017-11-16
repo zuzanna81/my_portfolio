@@ -1,16 +1,4 @@
-!!!
-%html
-  %head
-    :css
-      .footer {
-         position: fixed;
-         left: 0;
-         bottom: 0;
-         width: 100%;
-         background-color: hsla(89, 43%, 51%, 0.3);
-         color: blue;
-         text-align: center;
-      }
-  %body
-    .footer
-      %a{:href => "https://www.linkedin.com/in/zuzanna-bienkowska-6537196b/"} Contact
+.footer
+  .container
+    .text-center
+      %a.text-info.btn-lg{"data-toggle" => "tooltip", :href => "contact.html", :title => "Go to my LinkedIn profile"} Contact
