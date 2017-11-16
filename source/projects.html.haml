@@ -1,51 +1,12 @@
 !!!
-%html{:lang => "en"}
-  -# %head
-  -#   %title Bootstrap Example
-  -#   %meta{:charset => "utf-8"}/
-  -#   %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
-  -#   %link{:href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css", :rel => "stylesheet"}/
-  -#   %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"}
-  -#   %script{:src => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"}
+%html
   %body
     .container
       %h2 My Projects at CraftAcademy
       %p Listed below are past and ongoing projects and tools used during the bootcamp 2017
-      %table.table.table-striped
-        %thead
-          %tr
-            %th Name of the Project
-            %th Main programming language
-            %th Frameworks and tools
-            %th Link to GitHub
-        %tbody
-          %tr
-            %td ATM Challenge
-            %td Ruby
-            %td RSpec
-            %td
-          %tr
-            %td Library Challenge
-            %td Ruby
-            %td RSpec
-            %td
-          %tr
-            %td BMI Challenge
-            %td JavaScript
-            %td Jasmine
-            %td
-          %tr
-            %td My Portfolio
-            %td JavaScript, HTML, CSS
-            %td Middleman, jQuery, Bootstrap, HAML
-            %td
-
-
-
-
-
-
--# .about
--#   - data.about.each do |project|
--#     %h5= project[:name]
--#     %h6=project[:description]
+      .projects
+        - data.projects.each do |project|
+          %br
+          %h5= project[:name]
+          %p= project[:description]
+          %p= project[:tools]
