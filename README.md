@@ -3,7 +3,7 @@
 
 **Assignment**
 
-The challenge is to build a static website using HTML, CSS and Middleman as a framework. An individual portfolio that presents all the past projects and all the projects that I am currently working on.
+The challenge is to build a static website using HTML, CSS and Middleman as a framework. An individual portfolio that presents all the past projects and all the projects that you am currently working on.
 
 **Setup  Middleman and create your project**
 
@@ -35,14 +35,26 @@ The challenge is to build a static website using HTML, CSS and Middleman as a fr
 *         +-- all.css
 *         +-- normalize.css
 
-**How to build the application**
+**Building requirements**
 
+1. Include a Portfolio section
+* Create a `data` folder in the root project
+ * Add `projects.yml` and add some project information to the file
+ * Embed Ruby in the `index.html.haml` in order to display project information
+2. Include an About me section
+3. Use Partials for the header and the footer (in order to keep the code DRY)
+* Create `partials` folder in the source folder
+* Create `_footer.html.haml`
+* Add partials under = yield command in the main layout file, use `= partial 'partials/footer'`
+4. For styling, use CSS framework with Bootstrap library (and preferably SASS)
+5. Use HAML as a markup language for HTML (you need to create files that ends with .html.haml)
+6. Deploy your website on GHPages
 
+**How to deploy a website**
 
-**How to run the application**
-
+1. In your terminal
 
 
 **Resources**
 
-CraftAcademy course material, week 3. Stack Overflow
+CraftAcademy course material (week 3), webpages Bootstrap, Stack Overflow, w3schools
