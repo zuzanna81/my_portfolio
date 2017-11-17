@@ -22,27 +22,27 @@
   role:
   status: past
 
-# - system_on: FURA
-#   description_on:
-#   role_on:
-#   status: ongoing
-#
-# - system_on: IA
-#   description_on:
-#   role_on:
-#   status: ongoing
-#
-# - system_on: Kundwebben
-#   description_on:
-#   role_on:
-#   status: ongoing
-#
-# - system_on: Forskning
-#   description_on:
-#   role_on:
-#   status: ongoing
-#
-# - system_on: Klara
-#   description_on:
-#   role_on:
-#   status: ongoing
+- system_on: FURA
+  description_on:
+  role_on:
+  status: ongoing
+
+- system_on: IA
+  description_on:
+  role_on:
+  status: ongoing
+
+- system_on: Kundwebben
+  description_on:
+  role_on:
+  status: ongoing
+
+- system_on: Forskning
+  description_on:
+  role_on:
+  status: ongoing
+
+- system_on: Klara
+  description_on:
+  role_on:
+  status: ongoing
