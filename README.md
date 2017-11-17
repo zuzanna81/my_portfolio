@@ -47,7 +47,7 @@ The challenge is to build a static website using HTML, CSS and Middleman as a fr
 * Create `_footer.html.haml`
 * Add partials under = yield command in the main layout file, use `= partial 'partials/footer'`
 4. For styling, use CSS framework with Bootstrap library (and preferably SASS)
-5. Use HAML as a markup language for HTML (you need to create files that ends with .html.haml)
+5. Use HAML as a markup language for HTML (you need to create files that end with .html.haml)
 6. Deploy your website on GHPages
 
 **How to deploy a website**
