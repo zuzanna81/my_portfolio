@@ -56,9 +56,9 @@ The challenge is to build a static website using HTML, CSS and Middleman as a fr
 * In your terminal run `node -v` and `npm -v` to check that
 2. Run `npm install --global surge`
 3. Check `surge --version`
-4. Run 'middleman build'
+4. Run `middleman build`
 5. Check if the build folder appears within the project root folder
-6. Run ´surge´
+6. Run `surge`
 7. Update project path, add `build` at the end of the path
 8. Use a random, pre-defined domain or choose your own
 9. Check the domain
