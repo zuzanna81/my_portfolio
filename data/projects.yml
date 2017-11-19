@@ -1,18 +1,18 @@
 - name: ATM Challenge
   description: A simple cashpoint machine simulator
-  tools: Ruby, RSpec
+  tools: Techniques used - Ruby and RSpec
 
 
 - name: Library Challenge
   description: A simple application for renting books
-  tools: Ruby with RSpec
+  tools: Techniques used - Ruby and RSpec
 
 
 - name: BMI Challenge
   description: An application that calculates your Body Mass Index
-  tools: JavaScript with Jasmine
+  tools: Techniques used - JavaScript, Jasmine, jQuery
 
 
 - name: My Portfolio
   description: A static website about my coding work
-  tools: HTML, CSS, JavaScript, Middleman, Bootstrap, jQuery, HAML
+  tools: Techniques used - HTML, CSS, Middleman, Bootstrap, HAML

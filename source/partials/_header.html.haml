@@ -1,7 +1,8 @@
-%nav.navbar.navbar-default
-  .container-fluid
-    .navbar-header
-      %a.text-info.btn-lg{"data-toggle" => "tooltip", :href => "about.html", :title => "Read more about me"} Zuzanna Bienkowska
-    %ul.nav.navbar-nav
-      %li.active
-        %a.text-info.btn-lg{:href => "index.html"} Home
+.header
+  %nav.navbar.navbar-expand-lg.navbar
+    %a.navbar-brand.text-info.btn-lg{:href => "about.html"} Zuzanna Bienkowska
+    #navbarTogglerDemo02.collapse.navbar-collapse
+      %ul.navbar-nav.mr-auto.mt-2.mt-md-0
+        %li.nav-item.active
+          %a.text-info.btn-lg{:href => "index.html"}
+            Home

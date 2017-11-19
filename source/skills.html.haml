@@ -1,0 +1,26 @@
+.jumbotron
+  .cv
+    %a.text-info.btn-lg{:href => "cv.html"} Ongoing employment
+    %a.text-info.btn-lg{:href => "past.html"} Past employment
+    %button.btn.btn-warning.active{:type => "button"} Study and Skills
+    %br
+    %br
+    .curriculum_vitae
+      %h5.strong.text-left Warsaw School of Economics (2000 - 2006), Master's degree
+      %br
+      %h5.strong.text-left Competence and skills:
+      .cv
+        - data.cv.each do |element|
+          %p= element[:skill1]
+          %p= element[:skill2]
+          %p= element[:skill3]
+          %p= element[:skill4]
+          %p= element[:skill5]
+          %p= element[:skill6]
+          %p= element[:skill7]
+          %p= element[:skill8]
+          %p= element[:skill9]
+          %p= element[:skill10]
+          %p= element[:skill11]
+          %p= element[:skill12]
+          %p= element[:skill13]

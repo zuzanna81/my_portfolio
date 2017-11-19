@@ -1,23 +1,36 @@
 .header {
-  color: #8C45A9;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   background-color: #d5ff80;
+   padding: 8px;
 }
-
 .footer {
    position: fixed;
-   left: 0;
    bottom: 0;
    width: 100%;
-   background-color: hsla(89, 43%, 51%, 0.3);
-   color: blue;
+   background-color: #d5ff80;
    text-align: center;
+   padding: 10px;
 }
-body {
-    background-color: #fefbd8;
+.main {
+  background-color: black;
 }
-
-body {
-    position: relative;
+.cv {
+  padding: 15px;
 }
-#section1 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
-#section2 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
-#section3 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+.jumbotron {
+    background-color: white;
+}
+.contact {
+  width: 40%;
+  padding: 35px;
+  margin: 10px;
+}
+.project {
+  width: auto;
+  padding: 35px;
+}
+.profession {
+  padding: 35px;
+}

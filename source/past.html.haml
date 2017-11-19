@@ -1,0 +1,14 @@
+.jumbotron
+  .cv
+    %a.text-info.btn-lg{:href => "cv.html"} Ongoing employment
+    %button.btn.btn-primary.active{:type => "button"} Past employment
+    %a.text-info.btn-lg{:href => "skills.html"} Study and Skills
+    %br
+    %br
+    .curriculum_vitae
+      %h5.strong.text-left Hennes & Mauritz (July 2007 - December 2011)
+      .cv
+        - data.cv.each do |item|
+          %h6.strong= item[:system]
+          %p= item[:description]
+          %p.strong= item[:role]

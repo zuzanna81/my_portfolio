@@ -1,10 +1,10 @@
-%hr.my-4
-  .container
+.jumbotron
+  .project
     %h2 My Projects at CraftAcademy
     %p Listed below are past and ongoing projects and tools used during the bootcamp 2017
     .projects
       - data.projects.each do |project|
-        %br
         %h5= project[:name]
         %p= project[:description]
         %p= project[:tools]
+        %a{href:'#(project.url)'}

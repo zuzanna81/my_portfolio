@@ -1,20 +1,14 @@
-%hr.my-4
-%br
-%form{:action => "http://formspree.io/zuzanna.bienkowska@gmail.com", :method => "POST"}
-  .text-center
-  .container
-    %h5 Contact me here
-    %input{:name => "email", :placeholder => "Enter your email", :type => "email", :size => "51"}
-  %br
-  .text-center
-  .container
-    %textarea{:name => "message", :placeholder => "Please enter your message here", :rows => "10", :cols => "50"}
-  %br
-  .text-center
-  .container
-    %button{:type => "submit"} Send
-  %br
-  .text-center
-  .container
-    %h5 ...or
-    %a.text-info{"data-toggle" => "tooltip", :href => "https://www.linkedin.com/in/zuzanna-bienkowska-6537196b", :title => "go to my LinkedIn profile"} LinkedIn
+.jumbotron
+  .contact
+    %h3 Contact me
+    #frm
+      %form{:action => "http://formspree.io/zuzanna.bienkowska@gmail.com", :method => "POST"}
+        %input.form-control{:name => "email", :placeholder => "Please enter your email", :type => "email"}
+        %br
+        %textarea.form-control{:name => "message", :placeholder => "Please enter your message here", :rows => "10"}
+        %br
+        %button.btn-success{:type => "submit"} Send
+        %br
+        %br
+        %h5 ...or
+        %a.text-info{"data-toggle" => "tooltip", :href => "https://www.linkedin.com/in/zuzanna-bienkowska-6537196b", :title => "go to my LinkedIn profile"} LinkedIn

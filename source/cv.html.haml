@@ -1,0 +1,14 @@
+.jumbotron
+  .cv
+    %button.btn.btn-success.active{:type => "button"} Ongoing employment
+    %a.text-info.btn-lg{:href => "past.html"} Past employment
+    %a.text-info.btn-lg{:href => "skills.html"} Study and Skills
+    %br
+    %br
+    .curriculum_vitae
+      %h5.strong.text-left AFA Insurance (January 2012 - ...)
+      .cv
+        - data.cv.each do |item|
+          %h6.strong= item[:system_on]
+          %p= item[:description_on]
+          %p= item[:role_on]
