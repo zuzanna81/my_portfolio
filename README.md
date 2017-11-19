@@ -3,7 +3,7 @@
 
 **Assignment**
 
-The challenge is to build a static website using HTML, CSS and Middleman as a framework. An individual portfolio that presents all the past projects and all the projects that you am currently working on.
+The challenge is to build a static website using HTML, CSS and Middleman as a framework. An individual portfolio that presents all the past projects and all the projects that you are currently working on.
 
 **Setup  Middleman and create your project**
 
