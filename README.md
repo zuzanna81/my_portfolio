@@ -59,9 +59,11 @@ The challenge is to build a static website using HTML, CSS and Middleman as a fr
 4. Run `middleman build`
 5. Check if the build folder appears within the project root folder
 6. Run `surge`
-7. Update project path, add `build` at the end of the path
-8. Use a random, pre-defined domain or choose your own
-9. Check the domain
+7. Add your e-mail and password
+8. Update project path, add `build` at the end of the path
+9. Use a random, pre-defined domain or choose your own
+10. Check the domain
+11. Next time you deploy you start from step 4
 
 **Resources**
 
