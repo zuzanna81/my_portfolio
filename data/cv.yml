@@ -50,8 +50,8 @@
   skill6: XML
   skill7: SAS Enterprise Guide
   skill8: Agile Methodologies, SCRUM
-  skill9: Ruby basics, RSpec
-  skill10: JavaScript basics, Jasmine
-  skill11: Front-end development with HTML, CSS, Bootstrap, HAML
-  skill12: TDD (Test Driven Development) basics, XP (Extreme Programming)
+  # skill9: Ruby basics, RSpec
+  # skill10: JavaScript basics, Jasmine
+  # skill11: Front-end development with HTML, CSS, Bootstrap, HAML
+  # skill12: TDD (Test Driven Development) basics, XP (Extreme Programming)
   skill13: Languages - Polish, Swedish, English, Russian
