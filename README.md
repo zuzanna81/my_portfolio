@@ -10,7 +10,7 @@ The challenge is to build a static website using **HTML**, **CSS** and **Middlem
 1. In your terminal run `gem install middleman` (make sure you have Ruby installed on your computer, run `ruby -v` to check current Ruby version)
 2. Navigate to the folder where you want your middleman project to be created
 * Run `middleman init my_site` (this will create a new folder my_site and generate starter files for the project)
-* Run `cd my_site` to navigate to the project, open it in your text editor (`atom .`))
+* Run `cd my_site` to navigate to the project, open it in your text editor (`atom .`)
 3. In **Gemfile** add `gem 'middleman-livereload'` and run `bundle install`
 4. In **config.rb** add `activate :livereload` at the top of the line
 5. Run `middleman server`(this will install your local server)
@@ -52,7 +52,7 @@ The challenge is to build a static website using **HTML**, **CSS** and **Middlem
 5. Use HAML as a markup language for HTML (you need to create files that end with .html.haml)
 6. Deploy your website on GHPages
 
-##How to deploy your website?
+## How to deploy your website?
 **You can use Surge...**
 
 1. Make sure you have node and npm installed on your computer
